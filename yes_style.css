@@ -2,10 +2,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 150vh;
+    height: 100vh;
     background-image: url("IMG_6118.jpg");
    
-    background-size:contain;
+    
   background-position: center;
 
    
