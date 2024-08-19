@@ -2,7 +2,7 @@ body {
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 220vh;
+    height: 120vh;
     background-image: url("IMG_6115.jpg");
     
     
@@ -81,7 +81,7 @@ body {
     }
 }
 
-@media only screen and (max-width: 414px) and (max-height: 736px) {
+@media only screen and (max-width: 414px) and (max-height: 936px) {
     body {
         height: 90vh;
     }
