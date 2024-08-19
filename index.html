@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="./styles.css">
+        
+    </head> 
+    
+    <body>
+        
+        <div class="container">
+            <div >
+                <h1 class = "header_text">24นี้้ป๊อปปิย้า</h1>
+                <h1 class = "header_text">พร้อมไฟท์ติ้ง มั้ย</h1>
+            </div>
+            <div class="gif_container">
+                <img src="https://media.tenor.com/7PDBZD1u9iYAAAAi/tkthao219-bunny.gif" alt="Cute animated illustration">
+            </div>
+            <div class = "buttons">
+                <button class="btn" id = "yesButton" onclick="nextPage()">พร้อมเป็น</button>
+                <button class="btn" id="noButton" onmouseover="moveButton()" onclick="moveButton()">ไม่พร้อมม</button>
+                <script>
+                    function nextPage() {
+                        window.location.href = "เป็น.html";
+                    }
+                    
+                    function moveButton() {
+                        var x = Math.random() * (window.innerWidth - document.getElementById('noButton').offsetWidth) - 85;
+                        var y = Math.random() * (window.innerHeight - document.getElementById('noButton').offsetHeight) - 48;
+                        document.getElementById('noButton').style.left = `${x}px`;
+                        document.getElementById('noButton').style.top = `${y}px`;
+                    }
+                </script> 
+            </div>
+        </div>
+       
+    </body> 
+</html>
