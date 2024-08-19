@@ -81,21 +81,3 @@ body {
     }
 }
 
-@media only screen and (max-width: 414px) and (max-height: 936px) {
-    body {
-        height: 90vh;
-    }
-
-    .header_text {
-        font-size: 28px;
-    }
-
-    img {
-        height: 60vh;
-    }
-
-    .btn {
-        padding: 15px 25px;
-        font-size: 14px;
-    }
-}
