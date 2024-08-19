@@ -4,6 +4,7 @@ body {
     align-items: center;
     height: 100vh;
     background-image: url("IMG_6118.jpg");
+    background-size: cover;
    
     
   background-position: center;
@@ -36,7 +37,7 @@ body {
     }
 
     img {
-        height: 60vh;
+        height: 120vh;
     }
 
     .btn {
